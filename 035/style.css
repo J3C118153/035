@@ -1,0 +1,255 @@
+ /* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbar-brand {
+    font-family: sans-serif;
+    font-size: 32px;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url("image/gambar_pesawat.png");
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .jumbotron .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    top: 0;
+  }
+  
+  .jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .jumbotron .display-4 span {
+    font-weight: 500;
+  }
+  
+  .info-panel {
+    /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5); */
+    border-radius: 3px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+    height: 90px;
+    text-align: center;
+  }
+  
+  .info-panel h2 {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #081d3a;
+  }
+  
+  .info-panel p {
+    font-size: 14px;
+    color: #000000;
+    margin-top: -5px;
+    font-weight: 200;
+  }
+  
+
+  @media (min-width: 992px) {
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link i {
+      color: white;
+    }
+  
+    .nav-link {
+      text-transform: uppercase;
+      margin-right: 30px;
+    }
+  
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #0b63dc;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+  
+    .jumbotron {
+      margin-top: -75px;
+      height: 640px;
+    }
+  
+    .jumbotron .display-4 {
+      font-family: "Piazzolla", serif;
+      font-size: 80px;
+      font-weight: 100;
+    }
+    .row-project{
+      width: 100%;
+    }
+    .gallery {
+      position: relative;
+      top: 150px;
+    }
+  
+    .col-sm {
+      padding: 0;
+      width: 100%;
+    }
+  
+    .image_ku {
+      width: 100%;
+      position: relative;
+    }
+  
+    .gallery:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(32, 101, 197, 0.5);
+      position: absolute;
+      top: 0;
+      z-index: 1;
+    }
+    .gallery:hover::after {
+      background-color: rgba(0, 77, 185, 0.65);
+      transition: 0.1s;
+      color: white;
+    }
+  
+    .image {
+      font-family: sans-serif;
+      text-align: center;
+      position: relative;
+      bottom: 90%;
+      color: white;
+      z-index: 0;
+    }
+    .tulisan_image {
+      font-size: 64px;
+    }
+  
+    .kotak {
+      margin-top: 95px;
+    }
+  
+    .kotak_1 {
+      font-family: sans-serif;
+      color: white;
+      position: relative;
+      bottom: 50%;
+      text-align: center;
+    }
+  
+    .tulisan-kotak {
+      font-size: 53px;
+      font-weight: 180;
+    }
+  
+    .kotak_2{
+      font-weight: 200;
+    }
+  
+    hr {
+      border-top: 1px dashed white;
+    }
+  
+    .kotak_hitam{
+      content: "";
+      background-image: url("image/gambar_gedung.png");
+      width: 100%;
+      height: 298px;
+    }
+  
+    .warna-abu1 {
+      content: "";
+      background-color: #e5e5e5;
+      position: relative;
+      top: -120%;
+      height: 390px;
+      width: 100%;
+      z-index: 0;
+    }
+    .warna-abu2 {
+      content: "";
+      background-color: #e5e5e5;
+      position: relative;
+      top: -120%;
+      height: 390px;
+      width: 100%;
+      z-index: 0;
+    }
+  
+    
+    .story {
+      position: relative;
+      font-family: sans-serif;
+      z-index: 1;
+    }
+  
+    .story h3 {
+      font-size: 64px;
+      margin-top: 17%;
+      color: #013e8d;
+    }
+    .story1 {
+      position: relative;
+      font-family: sans-serif;
+      z-index: 1;
+    }
+  
+    .story h3 {
+      font-size: 64px;
+      margin-top: 17%;
+      color: #013e8d;
+    }
+  
+    .biru {
+      position: relative;
+      bottom: 40px;
+      background-color: #002554;
+      color: white;
+      width: 90%;
+      margin-bottom: 5px;
+      z-index: 1;
+    }
+    .biru1 {
+      position: relative;
+      bottom: 40px;
+      background-color: #002554;
+      color: white;
+      width: 90%;
+      margin-bottom: 5px;
+      z-index: 1;
+    }
+  
+    footer {
+      background-color: #002554;
+      color: white !important;
+      font-family: "Piazzolla", serif;
+    }
+  }
